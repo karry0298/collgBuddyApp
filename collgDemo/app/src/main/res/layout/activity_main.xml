@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.collekarry.collgdemo.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/lay1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:alpha="0.8"
+            android:contentDescription="bgImg"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            android:id="@+id/detText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="13dp"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:fontFamily="serif-monospace"
+            android:text="LOGIN with authenticated                                                                  ID and PASSWORD"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rollText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/passText"
+            android:layout_below="@+id/detText"
+            android:layout_marginTop="71dp"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:fontFamily="serif-monospace"
+            android:text="ROLL  :"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/passText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/detText"
+            android:layout_below="@+id/rollText"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="80dp"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:fontFamily="serif-monospace"
+            android:text="PASS  :"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/rollEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/rollText"
+            android:layout_marginEnd="15dp"
+            android:ems="10"
+            android:hint="Enter the ROLL NO...."
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/passEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/rollEditText"
+            android:layout_alignTop="@+id/passText"
+            android:ems="10"
+            android:hint="Enter the password..."
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/logButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="51dp"
+            android:background="@android:drawable/zoom_plate"
+            android:text="Log In" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

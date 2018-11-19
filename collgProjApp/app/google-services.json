@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "531634642814",
+    "firebase_url": "https://collgprojapp.firebaseio.com",
+    "project_id": "collgprojapp",
+    "storage_bucket": "collgprojapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531634642814:android:ddc21d3ae191f1e8",
+        "android_client_info": {
+          "package_name": "com.collekarry.collgprojapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531634642814-90vl0uffq2aiicjujvtio5efndvuu401.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.collekarry.collgprojapp",
+            "certificate_hash": "e6b4a0ca96f0c157e07def5055ecec2dd1a7058d"
+          }
+        },
+        {
+          "client_id": "531634642814-07ssq4suefkj50kgov82qund1154toad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVcXicj4ybg1ufcWt5vCEZ2aWaSZK5cak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531634642814-07ssq4suefkj50kgov82qund1154toad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
